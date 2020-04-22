@@ -1,0 +1,49 @@
+.register-container {
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-container .content {
+    width: 100%;
+    padding: 96px;
+    background-color: #f0f0f5;
+    box-shadow: 0 0 80px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.register-container .content section {
+    width: 100%;
+    max-width: 380px;
+}
+
+.register-container .content section h1 {
+    margin: 64px 0px 32px;
+    font-size: 42px;
+}
+
+
+.register-container .content section p {
+    font-size: 18px;
+    line-height: 32px;
+    width: 350px;
+}
+
+.register-container .content form {
+    width: 100%;
+    max-width: 450px;
+    gap: 8px;
+}
+
+.register-container .content form .input-group{
+    display: flex;
+    gap: 3px;
+}
